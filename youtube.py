@@ -3,7 +3,7 @@ from Google import Create_Service
 from googleapiclient.http import MediaFileUpload
 
 def youtube(File,File2,File3):
-    CLIENT_SECRET_FILE = 'client_secret_991340592645-imdkpppqot8ftjis7a9825ng043gfare.apps.googleusercontent.com.json'
+    CLIENT_SECRET_FILE = 'Client_Secret_file'
     API_NAME = 'youtube'
     API_VERSION = 'v3'
     SCOPES = ['https://www.googleapis.com/auth/youtube.upload']
